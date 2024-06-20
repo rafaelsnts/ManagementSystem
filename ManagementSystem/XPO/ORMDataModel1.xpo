@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="db5da186-607d-4471-a231-8398a0aff3a8" namespace="ManagementSystem.XPO.ManagementSystem" dataBaseShemaInfo="H4sIAAAAAAAEAMVYbW/bOAz+PmD/IcinHTDFtiy/DU6GtdmGYne7Yu0O+1ZQFpUK59g9v/Tlfv3RjpPaTXdduyX9FOghRfKhKIpO/PZ6mY4usShNnk3HzsQev529fBEfQIknVV7AAo8ynY9IKyvfXJdqOj6vqos3lnV1dTW5cid5sbC4bTvWtz9+P0nOcQnjjbJ5WJmZrKwgS3BMXkej+BRkimXjsl2vkR6whkafYYnTcSXP6rKGwuTjjQKpHBdmCcXNJ7zp9I4/nfVUR0fl18z8UzcGihr7W2nzYZ7Wy6wcgASXVWGyxYxsnBm1NhVbHTywYG2biK3bmPrwfc7i+cEKHq1+Tm8uKNKjrHL5uOMzjKIhRHY7NrQ4UphVpuohn+s0bfI2HWtIS4LmB43ZlTWTVeOR9QMxnLRk+0Gk+cJk49GJ+ZcAz37Q1SUUyTkUrzz7t6e6LDE7h126nEOFp2aJfacKKjhLCgMJ5A96JGWsyAB/ur86JQP5Or0/Yfwgz1OEbJDACqq6HFqV5sklkECxyPd9HjLN6f6Cys9I+KsTtDH+xBwd3FT4rijgZnBdl9RNl2cXWGiTrtPFnK3cSJNRm3i1hOs76bm3rRxlCq9xq3+08ON733e736P63/2hNmgX2IDUNoP4Q16gWWTU0speBmKr7fy36/dZu25oxFa32AjnpmyArxdNOczaMiT/A3Cj+7E26kjNhB+62lYhQ66BCeFGLPI8h6Hra9tzOfhSxFanvNncMR28Ud+FSdAcykq4lcueaLDl/4g+lmyfMOpEQyQFMZSaCe4QYTsElqhIAkjHtXmyRbh3uk/l3Ha1/dPVLvo+eAELXUV0Xa2Z5MCZVkoE6Gpfuc4u6LYP1v7puhq0KzzBXM8OmAipnKUtQ5aECgQdO3rK3gXd/lO5f9ahK5WWNjJbCsGEDxEDJ5IstL0kCsBXAW5f4l/Auv9gP8NNdpMg0gqYE3ouE55GBqEnGUcZYUDXHH13J6XdjhL75+vxIAw932e+EygmtKBTFtTIvMBBlUQulXe4C77trLN/uj4dIHIHmEK6xQKbeg4cybxIAPpoRwmXu6A7mLKeoapBgQwdh55h0VS1y1mUaMWASzdyFedcqZ3Sfob25fNQc99lAdDzJFAmDHyaRqKErrMKqXkFeheUB9Pp/mlzR/t+opBJzUM66SRkoefYLEmCkNuCS5//+Ft1H9oNjxukW9+qxM3/HaiOizxpwW7wjP9a/Tkym+Pl++uLAstyQt8jMLnk7oS/HnXiabOaeBP79eiQXoK6wGmGdVVA+np0XMvUJDTMnuZ/YzaVYaicwBMqsG0UEQ0Gaxetv8MUyhLL5gC+1Jvsxu8UhYbaXG8G4gY6qTVBs2/Hf8bW7bKTf8Flfol3d63QleYtegglzr5m9F2WLZDuVLte5em+gGJKE5VKZR4X6N0ofjq274QRf8QMC6q1w3y5xKwqu4LdggfKcyzpowOLD4bq4s6OoazdNscU6TOvLPPEQEXnt95zj6DdsP4oPsBzuDR5QSWlgYqFbttdycsXsXXnP7jZf6qROg+sEwAA" generateConnectionHelper="true" generateStoredProcedures="true" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="ManagementSystemXPOConnection" createdInVersion="23.2.5.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="true" lastModifiedInVersion="23.2.5.0" name="ManagementSystem" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="84cea0ba-eaec-4d0f-b428-31e69a589edd">
+      <comment Id="2236293c-bcbf-4528-bdb8-716091e41a2d" text="The 'PK_tb_usuario' index is ignored, because 'usu_id_usuario' is a key" name="tb_usuarioXPOComment">
+        <subjects>
+          <commentReferencesSubjects Id="f880a35b-935a-4819-adfe-3efc4a854bc2">
+            <xpObjectMoniker Id="4683f0d8-e2fa-4439-9551-e36f0532a6b4" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="4bb977a8-6223-4542-b0e2-682ce8515503">
+      <xpObject Id="4683f0d8-e2fa-4439-9551-e36f0532a6b4" name="tb_usuarioXPO" baseClass="XPLiteObject" userFileName="tb_usuarioXPO" designerFileName="tb_usuarioXPO.Designer" className="tb_usuarioXPO" initialName="tb_usuarioXPO" virtualBaseClass="XPLiteObject" persistent="tb_usuario" virtualName="tb_usuarioXPO">
+        <fields>
+          <generalXpObjectHasFields Id="f183c150-732c-46bb-9f37-1c829ed733e2">
+            <field Id="efcfa9b4-e3bf-4219-908a-cd9baab1302c" name="usu_id_usuario" columnType="Int32" initialName="usu_id_usuario" key="true" isIdentity="true" persistent="usu_id_usuario" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1c79f06e-caa5-45e1-97d9-88c48679164b">
+            <field Id="f3e66a57-83df-43ff-b2a2-fdd47e3f6d31" name="usu_login" initialName="usu_login" persistent="usu_login" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7ad784c2-6e66-44a6-ba24-6ab9189e4893">
+            <field Id="3faf3454-3507-4839-b0b8-c8da4a9be5d0" name="usu_senha" initialName="usu_senha" persistent="usu_senha" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d3322569-68cb-4a93-ae48-f99ad0fd818d">
+            <field Id="83bdfb0e-0b44-46a9-a19b-805c97a6d7e4" name="usu_data_criacao" columnType="DateTime" initialName="usu_data_criacao" persistent="usu_data_criacao" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fa979d89-dee8-48b9-8a88-53532d176487">
+            <field Id="e3c79fda-1853-45fe-a85b-2eb9e7fcfe63" name="usu_ultimo_login" columnType="DateTime" initialName="usu_ultimo_login" persistent="usu_ultimo_login" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="add57f55-d0e6-462d-bc58-9d8c4f670aa4">
+            <field Id="52788566-617d-4f49-a4b4-571edc93a9b8" name="usu_status" columnType="Boolean" initialName="usu_status" persistent="usu_status" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="58d890e4-377a-42d8-8971-7d32af06a48e">
+            <field Id="6cfee21a-de39-4e9b-871b-594ae6e09c2b" name="usu_cargo" initialName="usu_cargo" persistent="usu_cargo" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4c494e1c-f10a-4900-8dfe-6058484eeebb">
+            <field Id="eadab811-9543-4532-9cfd-a2b393d222dd" name="usu_bloqueado_ate" columnType="DateTime" initialName="usu_bloqueado_ate" persistent="usu_bloqueado_ate" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6bc1d7c2-1a87-4d38-9adc-85a1b818a138">
+            <field Id="8628f263-7aff-4ebc-a6fa-9c85bd87e47f" name="usu_bloqueado" columnType="Boolean" initialName="usu_bloqueado" persistent="usu_bloqueado" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="74fb1c8d-c1c0-4b9f-9b33-bd7c19d3c9ae">
+            <field Id="21f66cde-bf28-45c8-8510-cc782042b620" name="usu_imagem_perfil" columnType="ByteArray" initialName="usu_imagem_perfil" persistent="usu_imagem_perfil" virtualColumnType="ByteArray" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
